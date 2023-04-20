@@ -17,6 +17,16 @@ const staAktif_wo = L.marker([-7.3016458724196305, 112.73905780822912]).bindPopu
 const staAktif_wr = L.marker([-7.3016458724196305, 112.73905780822912]).bindPopup('Stasiun Waru').addTo(staAktif);
 const staAktif_gdg = L.marker([-7.388879756721036, 112.7285036389134]).bindPopup('Stasiun Gedangan').addTo(staAktif);
 const staAktif_sda = L.marker([-7.456644754278918, 112.71291556774986]).bindPopup('Stasiun Sidoarjo').addTo(staAktif);
+const staAktif_tln = L.marker([-7.465493234774154, 112.65107782357315]).bindPopup('Stasiun Tulangan').addTo(staAktif);
+const staAktif_spj = L.marker([-7.34680129234404, 112.69767105055908]).bindPopup('Stasiun Sepanjang').addTo(staAktif);
+const staAktif_bh = L.marker([-7.387750876751292, 112.61964379288901]).bindPopup('Stasiun Boharan').addTo(staAktif);
+const staAktif_krn = L.marker([-7.409717154661771, 112.58593212172478]).bindPopup('Stasiun Krian').addTo(staAktif);
+const staAktif_kdn = L.marker([-7.4368256279741205, 112.55266280823135]).bindPopup('Stasiun Kedinding').addTo(staAktif);
+const staAktif_trk = L.marker([-7.4589384891988955, 112.51876826590234]).bindPopup('Stasiun Tarik').addTo(staAktif);
+const staAktif_mr = L.marker([-7.472136600278112, 112.43408780823175]).bindPopup('Stasiun Mojokerto').addTo(staAktif);
+const staAktif_tga = L.marker([-7.506650465461253, 112.70814880823227]).bindPopup('Stasiun Tanggulangin').addTo(staAktif);
+const staAktif_pr = L.marker([-7.538126634108086, 112.70166926590365]).bindPopup('Stasiun Porong').addTo(staAktif);
+const staAktif_bg = L.marker([-7.598621588450213, 112.77835072357527]).bindPopup('Stasiun Bangil').addTo(staAktif);
 
 const staNonaktif = L.layerGroup();
 const staNonaktif_gng = L.marker([-7.584716676572663, 112.72460973591234], {icon: redIcon}).bindPopup('Ex Stasiun Gununggangsir(GNG)').addTo(staNonaktif);
